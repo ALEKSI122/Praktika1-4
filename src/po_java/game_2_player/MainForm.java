@@ -11,7 +11,7 @@ public class MainForm extends JFrame {
         // Заголовок формы
         setTitle("XO game GUI");
         // Границы формы
-        setBounds(300, 300, 455, 525);
+        setBounds(300, 300, 525, 525);
         // Можно ли изменять размер формы?
         // в нашем случае - нет
         setResizable(false);

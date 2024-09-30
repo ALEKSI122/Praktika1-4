@@ -40,7 +40,7 @@ public class GuessGame_chiclo {
 
             else {
 
-                System.out.println("Пока никто не угадал :(  Попробуйте еще.\n"+"                                                                                                                                                  "+number);
+                System.out.println("Пока никто не угадал :(  Попробуйте еще.\n"+"                                                                                                                                                  "/*+number*/);
                 System.out.println("Подсказка : ");
                 if(first < number) {
 
