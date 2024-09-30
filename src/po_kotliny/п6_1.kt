@@ -287,7 +287,7 @@ fun main() {
     var maxSize = 1
     var curSize = 1
     var value27 = 0
-    for(i in 1..arr27.size){
+    for(i in 1..(arr27.size-1)){
         if(arr27[i] == prev27) curSize++
         else {
             if(maxSize < curSize) {
