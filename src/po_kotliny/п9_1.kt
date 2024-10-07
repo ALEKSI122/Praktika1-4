@@ -6,7 +6,7 @@ fun main() {
     print("№1\n")
     val arr1 = Array(10, { Random.nextInt(1, 100) })
     for (i in arr1) print("$i ")
-    println("\n\n№2\nведите строку:")
+    println("\n\n№2\nведите строку(на английском языке):")
     val input = readLine() ?: ""
 
     val vowels = "aeiouAEIOU"
@@ -190,7 +190,7 @@ fun main22() {
 
         return Pair(longestWord, maxLength)
     }
-    println("\n№10\nВведите строку:")
+    println("\n№10\nВведите строку(на английском языке):")
     val input3 = readLine() ?: ""
     if (input3.isNotBlank()) {
         val (longestWord, length) = findLongestWord(input3)
